@@ -38,7 +38,7 @@ A blazing-fast, reliable, and feature-packed Telegram bot for streaming music in
 
 Click the button below to deploy **ArcMusic** instantly on Heroku:
 
-<a href="https://heroku.com/deploy?template=https://github.com/tusar404/ArcMusic">
+<a href="https://heroku.com/deploy?template=https://github.com/DivineDemonn/ArcMusic">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
 </a>
 
