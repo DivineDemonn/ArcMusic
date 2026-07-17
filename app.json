@@ -34,12 +34,12 @@
         "ARC_API_KEY": {
             "description": "API key for Arc API (optional). You can get one from https://deadlinetech.site . If you are using cookies, you can leave this empty.",
             "value": "",
-            "required": false
+            "required": true
         },
         "ARC_API_URL": {
             "description": "Base URL for the Arc API. For more info, visit https://deadlinetech.site.",
             "value": "https://api.deadlinetech.site",
-            "required": false
+            "required": true
         },
         "OWNER_ID": {
             "description": "The Telegram user ID of the bot's owner.",
