@@ -118,7 +118,6 @@ func GetPlayMarkup(chatID int64, r *RoomState, queued bool) tg.ReplyMarkup {
 		tg.Button.Data(F(chatID, "CLOSE_BTN"), "close"),
 	)
 
-
 	return btn.Build()
 }
 
@@ -152,12 +151,6 @@ func GetStartMarkup(chatID int64) tg.ReplyMarkup {
 			tg.Button.URL(
 				F(chatID, "SUPPORT_BTN"),
 				config.SupportChat,
-			),
-		).
-	    AddRow(
-			tg.Button.URL(
-				F(chatID, "SOURCE_BTN"),
-				"https://github.com/tusar404/ArcMusic",
 			),
 		).
 		Build()
