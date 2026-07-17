@@ -107,12 +107,12 @@ func loadConfig() {
 	DefaultLang = getString("DEFAULT_LANG", "en")
 	DurationLimit = int(getInt64("DURATION_LIMIT", 3600)) // In seconds
 	LeaveOnDemoted = getBool("LEAVE_ON_DEMOTED", false)
-	QueueLimit = int(getInt64("QUEUE_LIMIT", 10))
-	SupportChat = getString("SUPPORT_CHAT", "https://t.me/ArcChatz")
-	SupportChannel = getString("SUPPORT_CHANNEL", "https://t.me/ArcUpdates")
+	QueueLimit = int(getInt64("QUEUE_LIMIT", 100))
+	SupportChat = getString("SUPPORT_CHAT", "https://t.me/+IJ8j7yERjRU0YzMx")
+	SupportChannel = getString("SUPPORT_CHANNEL", "https://t.me/Qelisupport")
 	CookiesLink = getString("COOKIES_LINK", "")
 	SetCmds = getBool("SET_CMDS", true)
-	MaxAuthUsers = int(getInt64("MAX_AUTH_USERS", 25))
+	MaxAuthUsers = int(getInt64("MAX_AUTH_USERS", 250))
 
 	StartImage = getString(
 		"START_IMG_URL",
